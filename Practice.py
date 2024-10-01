@@ -1,0 +1,15 @@
+Ingredient_1 = input("Enter an Ingredient: ")
+oz_1 = float(input(f"Ounces of {Ingredient_1}: "))
+Ingredient_2 = input("Enter Ingredient #2: ")
+oz_2 = float(input(f"Ounces of {Ingredient_2}: "))
+Ingredient_3 = input("Enter Ingredient #3: ")
+oz_3 = float(input(f"Ounces of {Ingredient_3}: "))
+servings = int(input("How many servings(Whole Number Please): "))
+
+math_1 = round(oz_1*servings,2)
+math_2 = round(oz_2*servings,2)
+math_3 = round(oz_3*servings,2)
+
+print(f"Total ounces of {Ingredient_1}: {math_1}")
+print(f"Total ounces of {Ingredient_2}: {math_2}")
+print(f"Total ounces of {Ingredient_3}: {math_3}")
